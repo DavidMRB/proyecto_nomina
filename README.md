@@ -85,20 +85,20 @@ graph TD
     classDef driver fill:#f9f,stroke:#333,stroke-width:1px
 
     %% Nivel 1: Módulos atómicos
-    A[CalculadoraImpuestos\n(ISR y Seguro Social)]:::modulo
-    C[CalculadoraBonos\n(Bonos por antigüedad)]:::modulo
-    D[CalculadoraDeducciones\n(Préstamos/Deducciones)]:::modulo
+    A[CalculadoraImpuestos <br/> (ISR y Seguro Social)]:::modulo
+    C[CalculadoraBonos <br/> (Bonos por antigüedad)]:::modulo
+    D[CalculadoraDeducciones <br/> (Préstamos/Deducciones)]:::modulo
     classDef modulo fill:#bbf,stroke:#333,stroke-width:1px
 
     %% Nivel 2: Integración
-    B[NominaSistema\n(Integración de módulos)]:::sistema
+    B[NominaSistema <br/> (Integración de módulos)]:::sistema
     A --> B
     C --> B
     D --> B
     classDef sistema fill:#bfb,stroke:#333,stroke-width:2px
 
     %% Nivel 3: Pruebas de sistema
-    E[Test Bottom-Up\n(Pruebas de integración)]:::test
+    E[Test Bottom-Up <br/> (Pruebas de integración)]:::test
     B --> E
     classDef test fill:#ffb,stroke:#333,stroke-width:2px
 ```
@@ -149,3 +149,4 @@ Nómina solo con bono.
 ### Reporte HTML generado
 
 ![Reporte HTML](images/HTML.png)
+
