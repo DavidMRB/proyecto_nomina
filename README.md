@@ -18,6 +18,7 @@ La idea es comenzar probando los módulos más pequeños (cálculos individuales
 
 ## 📂 Estructura del proyecto
 
+```bash
 proyecto_nomina/
 │── images/ 
 │ ├── HTML.png
@@ -32,7 +33,7 @@ proyecto_nomina/
 │── nomina_sistema.py # Integra todos los módulos
 │── test_bottom_up.py # Pruebas unitarias e integración
 │── README.md # Documentación
-
+```
 ---
 
 ## ⚙️ Instalación
@@ -76,6 +77,7 @@ El enfoque Bottom-Up se basa en probar primero las unidades más pequeñas (cál
 ## 📐 Diagrama de Integración Bottom-Up
 Este diagrama muestra cómo se van integrando y probando los componentes:
 
+```mermaid
 graph TD
 
     %% Nivel 0: Drivers
@@ -99,7 +101,7 @@ graph TD
     E[Test Bottom-Up\n(Pruebas de integración)]:::test
     B --> E
     classDef test fill:#ffb,stroke:#333,stroke-width:2px
-
+```
 ---
 
 ## 🔎 Lectura del diagrama:
@@ -145,4 +147,5 @@ Nómina solo con bono.
 ![Reporte de cobertura](images/Summary.png)
 
 ### Reporte HTML generado
+
 ![Reporte HTML](images/HTML.png)
